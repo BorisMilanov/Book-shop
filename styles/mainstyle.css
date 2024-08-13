@@ -1,0 +1,65 @@
+.homebackground {
+    width: 100vw;
+    min-height:  110vh ;
+    background-image: url("../images/home.png");
+    background-size: cover;
+    height: 20em;
+    
+}
+
+.navbar {
+    background-image: url("../images/Rectangle\ 10.png");
+    width: 100vw;
+}
+
+.logo{
+    padding: 20px;
+    margin-left: 850px;
+}
+
+.search {
+  width: 900px; 
+  margin: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 600px;
+  padding: 12px;
+  border-radius: 14px;
+  background-color: #c8c9cc;
+}
+
+.search-input{
+   border: none;
+   outline: none;
+   background-color: #c8c9cc;
+   font-size: 20px;
+}
+
+.btn {
+    cursor: pointer;
+   
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    color: #f0f3f5;
+    font-size: 1.5em;
+ 
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+h1{
+   
+    color: white;
+    border-bottom: 6px solid white;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
