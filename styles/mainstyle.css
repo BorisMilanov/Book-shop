@@ -78,7 +78,8 @@ h1{
     width:222px ;
     height: 382px;
     background-color: rgb(28, 31, 69);
-    
+    margin-left: 20px;
+    margin-right: 20px;
     border: solid black 2px;
 }
 
