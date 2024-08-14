@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(28, 31, 69);
+}
 .homebackground {
     width: 100vw;
     min-height:  110vh ;
@@ -56,10 +59,43 @@
 }
 
 h1{
-   
+    margin-top: 100px;
     color: white;
     border-bottom: 6px solid white;
     text-align: center;
     width: 100%;
     display: block;
+    
+}
+
+.books{
+    display: flex;
+    background-color: rgb(28, 31, 69);
+    justify-content: center;
+}
+
+.book-container{
+    width:222px ;
+    height: 382px;
+    background-color: rgb(28, 31, 69);
+    
+    border: solid black 2px;
+}
+
+.book-container img{
+    margin-left: 10px;
+    margin-top: 10px;
+    height:  285px;
+    width:196px;
+}
+
+.book-name{
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.book-price{
+    color: aliceblue;
+    font-size: 18px;
+    
 }
